@@ -1,4 +1,10 @@
-const getTheTitles = function() {
+const getTheTitles = function(arrayOfBooks) {
+    const arrayOfTitles = new Array;
+    for (const book of arrayOfBooks) {
+        arrayOfTitles.push(book.title);
+    }
+    console.log(arrayOfTitles);
+    return arrayOfTitles;
 
 };
 
